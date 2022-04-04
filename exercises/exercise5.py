@@ -11,7 +11,8 @@ variable_02 = "días "
 variable_03 = "a todos!"
 
 # COMPLETAR - INICIO
-
+strings_concatenados =  variable_01 + variable_02 + variable_03
+print(strings_concatenados)
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Buenos días a todos!"
@@ -23,12 +24,15 @@ Restricción: Usar directamente los strings y la concatenación automática (no
 usar operadores).
 """
 
-# "¡Mamá "
-# "estoy concatenando "
-# "strings!"
+
 
 # COMPLETAR - INICIO
-
+variable_01  = "¡Mamá "
+variable_02 =  "estoy concatenando "
+variable_03 =  "strings!"
+    
+strings_concatenados = ('{0}{1}{2}'.format(variable_01,variable_02,variable_03))
+print(strings_concatenados)
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Mamá estoy concatenando strings!"
@@ -45,7 +49,8 @@ variable_02 = 600
 variable_03 = " pesos a un amigo."
 
 # COMPLETAR - INICIO
-
+strings_concatenados = variable_01 + str(variable_02) + variable_03
+print(strings_concatenados)
 # COMPLETAR - FIN
 
 assert strings_concatenados == "Le debo 600 pesos a un amigo."
@@ -64,7 +69,8 @@ variable_04 = " años."
 variable_05 = "Ezequiel"
 
 # COMPLETAR - INICIO
-
+strings_concatenados = ('{0}{1}{2}{1}{3}{5}{4}'.format(variable_01,variable_02,variable_03,variable_04,variable_05,' Se llama '))
+print(strings_concatenados)
 # COMPLETAR - FIN
 
 assert (
@@ -83,7 +89,8 @@ variable_03 = " pesos que le debía a Ezequiel, me faltan $"
 variable_04 = 4
 
 # COMPLETAR - INICIO
-
+strings_concatenados = (f'{variable_01}{variable_02}{variable_03}{variable_04}')
+print(strings_concatenados)
 # COMPLETAR - FIN
 
 assert strings_concatenados == "Le pagué 2 pesos que le debía a Ezequiel, me faltan $4"

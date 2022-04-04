@@ -9,7 +9,7 @@ y en el mismo orden.
 lista = ["casa", "perro", "pato", "gato"]
 
 # COMPLETAR - INICIO
-
+tupla = tuple(lista)
 # COMPLETAR - FIN
 
 assert tupla == ("casa", "perro", "pato", "gato")
@@ -23,7 +23,7 @@ y en el mismo orden.
 tupla = "casa", "perro", "pato", "gato", "tenedor"
 
 # COMPLETAR - INICIO
-
+lista = list(tupla)
 # COMPLETAR - FIN
 
 assert lista == ["casa", "perro", "pato", "gato", "tenedor"]
@@ -36,6 +36,7 @@ Desempaquetar la siguiente tupla en las variables a, b y c
 tupla = ("primer", 25, [1, 2, 3])
 
 # COMPLETAR - INICIO
+a,b,c = tupla
 
 # COMPLETAR - FIN
 
@@ -49,7 +50,8 @@ Desempaquetar la siguiente tupla y luego sumar sus valores
 tupla = (87, 98, 35, 67, 4, 9)
 
 # COMPLETAR - INICIO
-
+total = list(tupla)
+total = sum(total)
 # COMPLETAR - FIN
 
 assert total == 300
@@ -63,7 +65,8 @@ Restricción: Utilizar f-Strings.
 lista = ["esta", "mañana", "sali", "a", "correr"]
 
 # COMPLETAR - INICIO
-
+string_concatenado = (f'{lista[0]} {lista[1]} {lista[2]} {lista[3]} {lista[4]}')
+print(string_concatenado)
 # COMPLETAR - FIN
 
 assert string_concatenado == "esta mañana sali a correr"
