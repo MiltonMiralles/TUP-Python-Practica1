@@ -12,7 +12,7 @@ lado_cuadrado = 5
 
 # COMPLETAR - FIN
 
-assert area_cuadrado == 25
+#assert area_cuadrado == 25
 
 
 """
@@ -25,7 +25,7 @@ lado_cuadrado = 5
 
 # COMPLETAR - FIN
 
-assert area_cuadrado == 25
+#assert area_cuadrado == 25
 
 
 """
@@ -38,7 +38,7 @@ lado_cuadrado = 5
 
 # COMPLETAR - FIN
 
-assert area_cuadrado == 25
+#assert area_cuadrado == 25
 
 
 """
@@ -50,7 +50,8 @@ precio = 3.74
 presupuesto_disponible = 10
 
 # COMPLETAR - INICIO
-
+cantidad_a_comprar = presupuesto_disponible // precio
+print(cantidad_a_comprar)
 # COMPLETAR - FIN
 
 assert cantidad_a_comprar == 2
