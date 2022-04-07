@@ -12,6 +12,11 @@ numero_3 = 3
 
 # COMPLETAR - INICIO
 
+conjunto_1 = set()
+conjunto_1.add(numero_1)
+conjunto_1.add(numero_2)
+conjunto_1.add(numero_3)
+
 # COMPLETAR - FIN
 
 assert conjunto_1 == {1, 2, 3}
@@ -28,6 +33,8 @@ domicilio = "Los sauces 3446"
 edad = "35"
 
 # COMPLETAR - INICIO
+
+
 
 # COMPLETAR - FIN
 
