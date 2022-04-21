@@ -10,6 +10,9 @@ Definir un diccionario para un 'Cliente' que contenga los siguiente valores:
 """
 
 # COMPLETAR - INICIO
+from webbrowser import get
+
+
 Cliente =  {
     "Nombre": "Mario Pedernera",
     "Dni":"56895632",
@@ -33,7 +36,12 @@ Definir un diccionario para las 'Compras' que contenga los siguiente valores:
 """
 
 # COMPLETAR - INICIO
-
+Compras = {
+    "Mario Pedernera":["cafetera", "TV 50 pulgadas", "mouse gamer"],
+    "Ezequiel Castello":["ipad", "ipod", "iphone"],
+    "Pablo Piristrelli":["Reproductor de CD", "Videograbadora"]
+}
+print(Compras)
 # COMPLETAR - FIN
 
 assert (
@@ -56,7 +64,8 @@ diccionario = {
 }
 
 # COMPLETAR - INICIO
-
+clave1 = get(diccionario("clave1"))
+print(clave1)
 # COMPLETAR - FIN
 
 assert clave1 == 234
